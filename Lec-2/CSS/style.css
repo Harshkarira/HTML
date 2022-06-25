@@ -1,3 +1,51 @@
-.red-color{
-    background-color: red; color: white;
+p{
+    background-color: red;
+    color: yellow;
+}
+
+
+
+ .red-color{
+    background-color: black;
+    color: white;
+} 
+ /* class me jo niche rkha woh aayega bcuz it overrides upar wala  */ 
+ .black-color{
+    background-color: blue;
+    color: white;
+} 
+
+/* id has more specificity */
+/* #internal{
+    background-color: blue;
+    color: white;
+} 
+
+ .inheritance{
+    background-color: blue;
+    color: rgba(255, 255, 255,2);
+}
+/* attribute selector */
+ a[href="https://www.google.com/"] {
+    color: red
+}
+
+a[title="FB"]{
+    color:green;
+}
+a:hover{
+    color: yellow;
+}
+
+ /* a:visited{
+    color: black;
+}  */
+.bgclass{
+    height: 800px; 
+    width:800;
+    border:2px solid yellow;
+    background-image: url(images/github.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background:url(images/github.webp) no repeat center center;
 }
