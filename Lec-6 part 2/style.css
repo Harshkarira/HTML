@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ #align{
+    text-align: center;
+} 
+a{
+    text-decoration: none;
+    text-decoration: dashed underline;
+}
+.calculate{
+    width: calc(70% - 200px);
+   
+}
