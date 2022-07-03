@@ -1,0 +1,64 @@
+/* #text{
+    text-transform:uppercase;
+    font-family: 'Splash', cursive;;
+}
+/* #size{
+    font-size: 20px;
+    font-weight: 800;
+} */
+/*.container{
+    /* position: relative;
+    background-color: yellow;
+    width: 800px;
+    height: 800px;
+}*/
+
+/*.inner{
+    font-size: 2rem;
+    width: 2rem;
+} */
+/*
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: black;
+    display: inline-block;
+}
+#two{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    right: 0px;
+
+}*/
+.inner{
+    background-color: white;
+    margin-left: 100px;
+}
+.fixed{
+    background-color: blue;
+    color: white;
+    position: fixed;
+    top: 40px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+}
+div{
+    background-color: aqua;
+}
+dt{
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+}
+dd{
+    border-top: 1px solid #ccc;
+}
+.c{
+    overflow: scroll;
+    width: 400px;
+    height: 200px;
+}

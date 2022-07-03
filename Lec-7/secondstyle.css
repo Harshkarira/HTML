@@ -1,0 +1,14 @@
+/* if we write with space it selects every descendent p and gives them the color
+if we write >p then it will select only that class and give color to it */
+/* .outer>p{
+    color: red;
+} */
+/* .outer p{
+    color: red;
+} */
+/* .para1 ~ p{
+    color: blue;
+} */
+.para1 + p{
+    color: blue;
+}
