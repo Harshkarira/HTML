@@ -5,94 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+  <div>
     <!-- header -->
-    <div>
+    <div class="header">
       <!-- col 1 -->
       <div>
-        <img src="images/thumb-1920-605592.png" alt="Alternative"
-        height = 15%
-        width = 15%/>
+        <img src="images/profile.jpg" alt="Alternative"
+        height = 200px
+        width = 200px/>
       </div>
       <!-- end of col 1 -->
 
       <!-- col 2 -->
-      <div>
+      <div class="objective">
         <h1>Harsh Karira</h1>
         <div>
           <small>A keen learner and a problem solver</small>
         </div>
-        <i>Looking to take advantage of my skills in the industry</i>
+        <div class="inner-obj">
+          <i>Looking to take advantage of my skills in the industry</i>
+        </div>
       </div>
       <!-- end of col 2 -->
 
       <!-- col 3 -->
-      <div>
-        <a href="https://github.com/Harshkarira"
+      <div class="parent-link">
+        <a href="https://github.com/Harshkarira" target="_blank"
           >https://github.com/Harshkarira
           <img src="images/github.webp" width="30px" height="25px" />
         </a>
-        <a href="https://github.com/priya-karsi"
-          >https://github.com/Harshkarira
+        <a href="https://www.linkedin.com/in/harsh-karira-9b96471bb/" target="_blank"
+          >https://in.linkedin.com/Harsh karira
           <img src="images/linkedin.png" width="30px" height="25px" />
         </a>
       </div>
       <!--  end of col 3 -->
     </div>
+  </div>  
     <!-- end of header -->
 
     <hr />
     <!-- contact -->
-    <div>
+    <div class="contact">
       <img src="images/email.jpg" width="30px" height="25px" />
-      <span>sherri.jacobs@example.com</span>
-      <img src="images/mobile.jpg" width="30px" height="25px" />
+      <span>kariraharsh2@gmail.com</span>
+      <img src="images/mobile.png" width="30px" height="25px" />
       <span>(767)-061-6856</span>
     </div>
     <!-- end of contact -->
     <hr />
 
     <!-- main section -->
-    <div>
+    <div class="main">
       <!-- col 1 -->
-      <div>
+      <div class="col1">
         <!-- education section -->
         <div>
           <h2>EDUCATION</h2>
-          <div>
+          <div class="education">
             <h3>B.E Computer Engineering (sem I - sem VIII) 2021</h3>
             <p>VESIT, Chembur</p>
-            <i>
+            <i class="edu-footer text-muted">
               <div>08/2017 - 06/2021</div>
               <div>CGPA: 9.15</div>
             </i>
           </div>
 
-          <div>
+          <div class="education">
             <h3>Higher Secondary School (HSC) 2017</h3>
             <p>Smt CHM College</p>
-            <i>
+            <i class="edu-footer text-muted">
               <div>06/2015 - 06/2017</div>
               <div>Percentage:77.54%</div>
             </i>
           </div>
 
-          <div>
+          <div class="education">
             <h3>Secondary School (SSC)2015</h3>
             <p>K.C. Gandhi School</p>
-            <i>
+            <i class="edu-footer text-muted">
               <div>2015</div>
               <div>Percentage:82%</div>
             </i>
           </div>
-        </div>
+        
         <!--  end of education -->
 
         <!--  tech skills -->
         <div>
           <h2>TECHNICAL SKILLS</h2>
-          <ul>
+          <ul class="skills">
             <li>Java</li>
             
             <li>Python</li>
@@ -110,7 +115,7 @@
         <!-- tools -->
         <div>
           <h2>TOOLS</h2>
-          <ul>
+          <ul class="skills">
             <li>Github</li>
             <li>Netbeans</li>
             <li>Xampp</li>
@@ -121,7 +126,7 @@
          <!--  frameworks -->
          <div>
             <h2>FRAMEWORKS</h2>
-            <ul>
+            <ul class="skills">
               <li>Angular</li>
               <li>Spring Boot</li>
               <li>Django</li>
@@ -131,9 +136,11 @@
           </div>
           <!-- end of frameworks -->
         </div>
+      
         <hr />
+    </div>
         <!-- cocurricular -->
-        <div>
+        
           <h2>COCURRICULAR ACTIVITIES</h2>
           <ul>
             <li>
@@ -159,12 +166,13 @@
             </li>
             <li>Oracle Database Programming SQL Certification</li>
           </ul>
-        </div>
+        
+      </div>
         <!--  end of cocurricular -->
         <!-- end of col 1 -->
   
         <!-- col 2 -->
-        <div >
+        <div class="col1">
           <h2>PERSONAL PROJECTS</h2>
           <dl>
             <dt> Chat System : Multithreading Java Application </dt>
@@ -235,8 +243,9 @@
             <dd>It is a GUI using python Tkinter to buy books online.</dd>
           </dl>
         </div>
-        <!-- end of col 2 -->
       </div>
+        <!-- end of col 2 -->
       <!-- end of main section -->
+    
     </body>
     </html>

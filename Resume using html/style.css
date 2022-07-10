@@ -1,0 +1,82 @@
+.header{
+    display: flex;
+}
+.parent-link{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.objective{
+    flex-grow: 2;
+    margin: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-obj{
+    margin-top: 10px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col1{
+    margin: 20px;
+    flex-basis: 100%;
+}
+.edu-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.text-muted{
+    color: gray;
+}
+.education > h3,.education > p,.education > i{
+    margin: 8px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+.skills>li{
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+dd::before{
+    content: '-';
+    font-weight: bolder;
+}
+dt{
+    font-size: 22px;
+    font-weight: bolder;
+}
+dd{
+    font-size: 18px;
+}
+@media screen and (max-width:878px){
+    .objective{
+        order: 1;
+        text-align: center;
+    }
+    .header{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen  and  (max-width:478px) {
+    .header{
+        justify-content: center;
+    }
+}
