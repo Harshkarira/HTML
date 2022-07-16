@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form>
+        <fieldset>
+          <legend>Application Form</legend>
+          <!-- eg if there are two radio buttons even if you click the text of radio button the radio button gets selecteed due to for label if for is not given radio button gets selected only if you click that -->
+
+          <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="f" />
+          </div>
+          <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="l" />
+          </div>
+          <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender"/ value="m">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="f" />
+          </div>
+          <div>
+            <label for="car">Car</label>
+            <input type="checkbox" id="car" />
+            <label for="bike">Bike</label>
+            <input type="checkbox" id="bike" />
+          </div>
+          <div>
+            <label for="mail">Mail:</label>
+            <input type="email" name="" id="mail" />
+          </div>
+          <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" />
+          </div>
+          <label for="no">mobile no.</label>
+          <input type="number" id="no" /> <br>
+          <!-- drop down comes in select tag and the options of drown is written in option tag  -->
+          <select name="fruits" id="">
+            <option value="a">Apple</option>
+            <option value="o">Orange</option>
+            <option value="p">Pear</option>
+          </select>
+          <input type="submit" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
